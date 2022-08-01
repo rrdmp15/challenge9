@@ -1,0 +1,121 @@
+html, body{
+    height: 100%;
+}
+body{
+    background: hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.bigcard{
+    width: 630px;
+    height: 210px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.content{
+    margin: 50px;
+}
+p{
+    margin: 0;
+}
+h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+h3{
+    font-weight: 400;
+}
+h4{
+    color: hsl(71, 73%, 54%);
+}
+.little-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-izq{
+    width: 315px;
+    height: 250px;
+    background: hsl(179, 62%, 43%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-bottom-left-radius: 8px;
+}
+.color{
+    color: hsl(179, 42%, 64%);
+}
+span{
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+}
+p.white{
+    margin: 0 0 40px 0;
+}
+.card-der{
+    width: 315px;
+    height: 250px;
+    background: hsl(179, 62%, 43%);
+    color: white;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-weight: lighter;
+    border-bottom-right-radius: 8px;
+}
+a.btn{
+    padding: 15px 79px;
+    background: hsl(71, 73%, 54%);
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+.content-little{
+    margin:20px;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+@media (max-width: 631px){
+    body{
+        display: flex;
+    }
+    section{
+        margin: 50px;
+    }
+    .card{
+        width: 315px;
+        height: 250px;
+    }
+    .bigcard{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .card-izq{
+        border-radius: 0;
+    }
+    .card-der{
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
